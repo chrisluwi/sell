@@ -45,7 +45,7 @@ const routes: Routes = [
       { path: 'modify-thing/:id', component: ModifyThingWithUploadComponent, canActivate: [AuthGuard] },
       { path: 'auth/login', component: LoginComponent },
       { path: 'auth/signup', component: SignupComponent },
-      { path: '', pathMatch: 'full', redirectTo: 'all-stuff' },
+      { path: '', pathMatch: 'full', redirectTo: 'auth/login' },
       { path: '**', redirectTo: 'all-stuff' }
     ]
   },
