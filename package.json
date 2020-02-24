@@ -25,13 +25,13 @@
     "core-js": "^3.2.1",
     "rxjs": "^6.4.0",
     "tslib": "^1.10.0",
-    "zone.js": "~0.9.1"
-  },
-  "devDependencies": {
+    "zone.js": "~0.9.1",
     "@angular-devkit/build-angular": "~0.803.3",
     "@angular/cli": "^8.3.21",
     "@angular/compiler-cli": "^8.2.5",
-    "@angular/language-service": "^8.2.5",
+    "@angular/language-service": "^8.2.5"
+  },
+  "devDependencies": {
     "@types/jasmine": "~3.4.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~12.7.4",
